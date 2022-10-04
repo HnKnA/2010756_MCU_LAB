@@ -1,0 +1,69 @@
+!SESSION 2022-09-20 10:29:30.453 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-09-20 10:29:47.048
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-09-20 10:29:47.145
+!MESSAGE Log4j initialized with config file C:\MCU\Lab1\Ex4\STM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-09-20 10:29:54.413
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-20 10:30:55.695
+!MESSAGE Indexed '7LED' (19 sources, 78 headers) in 2.29 sec: 3,647 declarations; 13,057 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2022-10-03 13:17:17.030 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\7LED\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\7LED\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-03 13:17:30.999
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-03 13:17:31.077
+!MESSAGE Log4j initialized with config file C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-03 13:17:37.115
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-10-03 13:18:15.936 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\7LED\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\7LED\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-03 13:18:27.608
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-03 13:18:27.681
+!MESSAGE Log4j initialized with config file C:\GIT Projects\MCU TEST\Lab1\Ex4\STM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-03 13:18:33.327
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2022-10-03 13:18:37.464
+!MESSAGE Resource '/7LED' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/7LED' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1020)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1112)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:170)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-03 13:18:40.855
+!MESSAGE Indexed '7LED' (19 sources, 97 headers) in 2.62 sec: 6,759 declarations; 21,030 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.67%)
