@@ -1,0 +1,71 @@
+!SESSION 2022-10-01 15:39:26.147 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-01 15:40:12.964
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-01 15:40:13.043
+!MESSAGE Log4j initialized with config file C:\MCU\Lab1\Ex8\STM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-01 15:40:16.684
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-01 15:50:29.010
+!MESSAGE Indexed 'ONE_LED_ON' (19 sources, 78 headers) in 2.63 sec: 3,647 declarations; 13,057 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2022-10-03 13:22:13.058 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\GIT Projects\MCU TEST\Lab1\Ex8\STM\ONE_LED_ON\.cproject
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\GIT Projects\MCU TEST\Lab1\Ex8\STM\ONE_LED_ON\.cproject
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-03 13:22:26.834
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-03 13:22:26.896
+!MESSAGE Log4j initialized with config file C:\GIT Projects\MCU TEST\Lab1\Ex8\STM\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-03 13:22:33.187
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 368 2022-10-03 13:22:37.464
+!MESSAGE Resource '/ONE_LED_ON' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/ONE_LED_ON' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1020)
+	at org.eclipse.core.internal.resources.Project.open(Project.java:1112)
+	at com.st.stm32cube.ide.mcu.ide.ui.project.internal.MCUProjectImporter$ProjectOperation.execute(MCUProjectImporter.java:170)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-10-03 13:22:41.561
+!MESSAGE Indexed 'ONE_LED_ON' (20 sources, 97 headers) in 3.16 sec: 6,780 declarations; 20,863 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.68%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-10-03 13:22:42.185
+!MESSAGE Error while parsing /ONE_LED_ON/Core/Src/main.c.
+!STACK 0
+java.lang.IllegalStateException: Workspace is closed.
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:432)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.<init>(InternalWorkspaceJob.java:30)
+	at org.eclipse.core.resources.WorkspaceJob.<init>(WorkspaceJob.java:66)
+	at org.eclipse.cdt.internal.core.pdom.indexer.TodoTaskUpdater$1.<init>(TodoTaskUpdater.java:135)
+	at org.eclipse.cdt.internal.core.pdom.indexer.TodoTaskUpdater.updateTasks(TodoTaskUpdater.java:135)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.writeToIndex(AbstractIndexerTask.java:1303)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseFile(AbstractIndexerTask.java:1107)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.parseLinkage(AbstractIndexerTask.java:910)
+	at org.eclipse.cdt.internal.core.pdom.AbstractIndexerTask.runTask(AbstractIndexerTask.java:572)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMIndexerTask.run(PDOMIndexerTask.java:164)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:96)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
