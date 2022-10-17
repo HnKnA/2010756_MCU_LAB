@@ -1,0 +1,23 @@
+19:42:10 **** Incremental Build of configuration Debug for project UPDATE_7SEG ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "UPDATE_7SEG.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\GIT Projects\MCU TEST\Lab2\Ex3\STM\UPDATE_7SEG\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UPDATE_7SEG.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UPDATE_7SEG.elf
+ 
+arm-none-eabi-size   UPDATE_7SEG.elf 
+arm-none-eabi-objdump -h -S  UPDATE_7SEG.elf  > "UPDATE_7SEG.list"
+arm-none-eabi-objcopy  -O ihex  UPDATE_7SEG.elf  "UPDATE_7SEG.hex"
+arm-none-eabi-objcopy  -O binary  UPDATE_7SEG.elf  "UPDATE_7SEG.bin"
+   text	   data	    bss	    dec	    hex	filename
+   8012	     40	   1648	   9700	   25e4	UPDATE_7SEG.elf
+Finished building: default.size.stdout
+ 
+Finished building: UPDATE_7SEG.bin
+Finished building: UPDATE_7SEG.hex
+ 
+ 
+Finished building: UPDATE_7SEG.list
+ 
+
+19:42:11 Build Finished. 0 errors, 0 warnings. (took 861ms)
+
